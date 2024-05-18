@@ -1,0 +1,16 @@
+const mongoose = require("mongoose");
+require('dotenv').config(); // Load environment variables from .env file
+
+const connectDB = async () => {
+    mongoose.connect(process.env.MONGODB_URI)
+    .then(()=>{
+        console.log("db connection successfully")
+    
+    })
+    
+    .catch((err)=>{
+        console.log(err.message);
+    })
+};
+
+module.exports = {connectDB};

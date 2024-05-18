@@ -1,0 +1,34 @@
+{
+	"multer": {
+		"noFile": "No file uploaded",
+		"success": "'Slider image uploaded successfully'",
+		"serverError": "Server error"
+	},
+	"createBook": {
+		"message1": "Book created successfully",
+		"error1": "Failed to create book"
+	},
+    "getallbook":{
+        "message1":"all get book successfully",
+        "error1":"Failed to get book"
+    },
+
+    
+        "getBookById": {
+            "notFound": "The book you are looking for does not exist.",
+            "serverError": "An unexpected error occurred on the server. Please try again later.",
+            "success": "Book retrieved successfully."
+        },
+        "updateBookById": {
+            "notFound": "Oops! We couldn't find the book you're trying to update. Please make sure the book ID is correct and try again.",
+            "serverError": "Oops! Something went wrong on our end while updating the book. Please try again later.",
+            "success": "Success! The book has been updated."
+        },
+        "deleteBookById": {
+            "notFound": "The book you are trying to delete does not exist.",
+            "serverError": "An unexpected error occurred on the server. Please try again later.",
+            "success": "Book deleted successfully."
+        }
+    
+    
+}

@@ -55,10 +55,7 @@ const bookSchema = new mongoose.Schema({
     imageUrl: {
         type: String
     },
-    featured: {
-        type: Boolean,
-        default: false
-    }
+
 });
 
 // Create a model from the schema

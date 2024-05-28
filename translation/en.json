@@ -28,7 +28,30 @@
             "notFound": "The book you are trying to delete does not exist.",
             "serverError": "An unexpected error occurred on the server. Please try again later.",
             "success": "Book deleted successfully."
-        }
-    
+        },
+
+
+        
+            "authenticate": {
+                "noToken": "Token not provided. Please include a valid token.",
+                "invalid": "The provided token is invalid. Please check and try again.",
+                "login": "Login successful. Welcome back!",
+                "notadmin": "You do not have admin privileges."
+            },
+            "forget": {
+                "error1": "User not found.",
+                "error2": "Internal server error.",
+                "message1": "OTP has been sent to your email address."
+              },
+              "reset": {
+                "error1": "User not found.",
+                "error2": "Internal server error.",
+                "error3": "Invalid OTP.",
+                "message1": "Password has been reset successfully."
+              }
+              
+
+        
+        
     
 }

@@ -17,7 +17,6 @@ const createBook = async (req, res) => {
             edition,
             stockQuantity,
             imageUrl,
-            featured
         } = req.body;
 
         const newBook = new Book({
@@ -34,7 +33,6 @@ const createBook = async (req, res) => {
             edition,
             stockQuantity,
             imageUrl,
-            featured
         });
 
         await newBook.save(); // Save the new book to the database
